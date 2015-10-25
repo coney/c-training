@@ -1,0 +1,11 @@
+Debug/
+.vs
+*.sdf
+*.sln
+*.vcxproj
+*.filters
+*.user
+*.opensdf
+~$*
+cifs*
+.idea
