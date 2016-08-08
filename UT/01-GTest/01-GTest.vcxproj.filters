@@ -18,7 +18,7 @@
     <ClInclude Include="gtest\gtest.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Librarian.h">
+    <ClInclude Include="fizz_game.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -29,10 +29,10 @@
     <ClCompile Include="gtest\gtest-all.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="LibrarianSpec.cpp">
+    <ClCompile Include="fizz_game.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Librarian.cpp">
+    <ClCompile Include="fizz_game_spec.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
