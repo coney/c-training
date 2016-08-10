@@ -15,7 +15,7 @@ void dump_array(){
 
 void *thread_proc(void *arg) {
   size_t index = (size_t)arg;
-  while (true) {
+  while (1) {
     ++arr[index];
     sleep(1);
   }
@@ -28,7 +28,7 @@ int main(int argc, char **argv) {
     pthread_create(&thread, NULL, thread_proc, (void *)i);
   }
 
-  while (true) {
+  while (1) {
     dump_array();
     sleep(3);
   }

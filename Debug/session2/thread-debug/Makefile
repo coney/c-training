@@ -1,7 +1,7 @@
 TARGET=thread-debug
 
-$(TARGET): *.cpp
-	g++ -O0 -g  -pthread -o $@ $<
+$(TARGET): *.c
+	gcc -m32 -O0 -g  -pthread -o $@ $<
 
 all: $(TARGET)
 
