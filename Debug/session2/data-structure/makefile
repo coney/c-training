@@ -1,8 +1,8 @@
-SRC=$(wildcard *.cpp)
-TARGETS=$(SRC:.cpp=)
+SRC=$(wildcard *.c)
+TARGETS=$(SRC:.c=)
 
-% : %.cpp
-	g++  -g -O0  $< -o $@
+% : %.c
+	gcc -m32  -g -O0  $< -o $@
 
 all : $(TARGETS)
 

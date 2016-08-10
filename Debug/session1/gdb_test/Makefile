@@ -1,7 +1,7 @@
 TARGET=testapp
 
 $(TARGET): *.c
-	gcc -O0 -g -o $@ $<
+	gcc -m32 -O0 -g -o $@ $<
 
 all: $(TARGET)
 
