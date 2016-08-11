@@ -1,3 +1,6 @@
 *.suo
 *.*sdf
 Debug/
+*.d
+*.o
+*.so

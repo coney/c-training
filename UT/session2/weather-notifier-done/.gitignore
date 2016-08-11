@@ -1,0 +1,9 @@
+*.o
+*.d
+*.so
+~*
+.vs
+*.db
+*.opendb
+cut-test
+
